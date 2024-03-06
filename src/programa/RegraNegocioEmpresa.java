@@ -21,7 +21,7 @@ public class RegraNegocioEmpresa {
 		System.out.println("Digite o Telefone da Empresa: ");
 		String telefone = scan.nextLine();
 		
-		Empresa empresa = new Empresa(cnpj, nome, telefone);
+		Empresa empresa = new Empresa();
 		
 		empresa.setCnpj(cnpj);
 		empresa.setNome(nome);

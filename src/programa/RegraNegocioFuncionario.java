@@ -24,7 +24,7 @@ public class RegraNegocioFuncionario {
 		System.out.println("Digite o Telefone: ");
 		String telefone = scan.nextLine();
 		
-		Funcionario funcionario = new Funcionario(cpf, nome, rg, telefone);
+		Funcionario funcionario = new Funcionario();
 		
 		funcionario.setCpf(cpf);
 		funcionario.setNome(nome);

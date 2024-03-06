@@ -6,15 +6,6 @@ public class Funcionario {
 	private String rg;
 	private String telefone;
 	
-	public Funcionario(String cpf, String nome, String rg, String telefone) {
-		super();
-		this.cpf = cpf;
-		this.nome = nome;
-		this.rg = rg;
-		this.telefone = telefone;
-		
-	}
-	
 	public String getCpf() {
 		return cpf;
 	}

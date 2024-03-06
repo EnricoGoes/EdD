@@ -5,14 +5,6 @@ public class Empresa {
 	private String nome;
 	private String telefone;
 	
-	public Empresa(String cnpj, String nome, String telefone) {
-		super();
-		this.cnpj = cnpj;
-		this.nome = nome;
-		this.telefone = telefone;
-		
-	}
-	
 	public String getCnpj() {
 		return cnpj;
 	}
