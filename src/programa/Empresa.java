@@ -23,5 +23,4 @@ public class Empresa {
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
-	
 }

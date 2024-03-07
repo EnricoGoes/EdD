@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Principal {
 	public static void main(String[] args) {
-		
 		Scanner scan = new Scanner(System.in);
 	    
 		RegraNegocioEmpresa em = new RegraNegocioEmpresa();
@@ -19,7 +18,5 @@ public class Principal {
 		
 		em.listarEmpresa(em.empresas);
 		fun.listarFuncionarios(fun.funcionarios);
-	
 	}
-
 }

@@ -7,7 +7,6 @@ public class RegraNegocioFuncionario {
 	Funcionario[] funcionarios = new Funcionario[3];
 	
 	public void cadastrarFuncionario() {
-		
 		System.out.println("--Cadastro do funcionario--\n");
 		
 		Scanner scan = new Scanner(System.in);
@@ -34,14 +33,10 @@ public class RegraNegocioFuncionario {
 		for (int i = 0; i < funcionarios.length; i++) {
             if (funcionarios[i] == null) {
                 funcionarios[i] = funcionario;
-                break;
-                
+                break;  
             }
-          
 		}
-		
 	}
-	
 	public static void listarFuncionarios(Funcionario[] funcionarios) {
 		for(Funcionario funcionario : funcionarios) {
 			if (funcionario != null) {
@@ -51,7 +46,6 @@ public class RegraNegocioFuncionario {
 	            System.out.println("Rg: " + funcionario.getRg());
 	            System.out.println("Telefone: " + funcionario.getTelefone());
 	            System.out.println("-------------------------\n");
-	            
 			}
 		}
 	}

@@ -7,7 +7,6 @@ public class RegraNegocioEmpresa {
 	Empresa[] empresas = new Empresa[2];
 	
 	public void cadastrarEmpresa() {
-		
 		System.out.println("----Cadastro da empresa----\n");
 		
 		Scanner scan = new Scanner(System.in);
@@ -31,13 +30,9 @@ public class RegraNegocioEmpresa {
             if (empresas[i] == null) {
                 empresas[i] = empresa;
                 break;
-                
             }
-		
 		}
-		
 	}
-	
 	public static void listarEmpresa(Empresa[] empresas) {
 		for(Empresa empresa : empresas) {
 			if (empresa != null) {
@@ -46,13 +41,9 @@ public class RegraNegocioEmpresa {
 	            System.out.println("Nome: " + empresa.getNome());
 	            System.out.println("Telefone: " + empresa.getTelefone());
 	            System.out.println("-------------------------\n");
-	            
 			}
-			
 		}
-		
 	}
-	
 }
 
 
