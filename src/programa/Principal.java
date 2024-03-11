@@ -9,7 +9,6 @@ public class Principal {
 		RegraNegocioEmpresa em = new RegraNegocioEmpresa();
 		RegraNegocioFuncionario fun = new RegraNegocioFuncionario();
 		
-	    
 		em.cadastrarEmpresa();
 		em.cadastrarEmpresa();
 		fun.cadastrarFuncionario();
